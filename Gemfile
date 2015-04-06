@@ -7,6 +7,7 @@ gem 'sinatra'
 group :test do
   gem 'byebug'
   gem 'data_mapper'
+  gem 'database_cleaner'
   gem 'dm-postgres-adapter'
   gem 'capybara'
   gem 'coveralls', require: false
